@@ -1,4 +1,4 @@
-update=mar 28 may 2019 18:20:31 -03
+update=mié 12 jun 2019 20:34:25 -03
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=out/nodeMCU1.0v
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
