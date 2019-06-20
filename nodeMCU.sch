@@ -1355,4 +1355,58 @@ F 3 "~" H 6300 4700 50  0001 C CNN
 	1    6300 4700
 	-1   0    0    1   
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D1E5AB6
+P 5350 6850
+F 0 "H1" H 5450 6896 50  0000 L CNN
+F 1 "MountingHole" H 5450 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5350 6850 50  0001 C CNN
+F 3 "~" H 5350 6850 50  0001 C CNN
+	1    5350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D1E5FD2
+P 6050 6850
+F 0 "H3" H 6150 6896 50  0000 L CNN
+F 1 "MountingHole" H 6150 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6050 6850 50  0001 C CNN
+F 3 "~" H 6050 6850 50  0001 C CNN
+	1    6050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D1E64ED
+P 5350 7200
+F 0 "H2" H 5450 7246 50  0000 L CNN
+F 1 "MountingHole" H 5450 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5350 7200 50  0001 C CNN
+F 3 "~" H 5350 7200 50  0001 C CNN
+	1    5350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D1E67FE
+P 6100 7200
+F 0 "H4" H 6200 7246 50  0000 L CNN
+F 1 "MountingHole" H 6200 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6100 7200 50  0001 C CNN
+F 3 "~" H 6100 7200 50  0001 C CNN
+	1    6100 7200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5150 6200 5150 7700
+Wire Notes Line
+	5150 7700 6850 7700
+Wire Notes Line
+	6850 7700 6850 6200
+Wire Notes Line
+	6850 6200 5150 6200
+Text Notes 5200 6300 0    50   ~ 0
+AGUJEROS DE SUJECION
 $EndSCHEMATC
