@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alejandro/CESE/CESE-7Co2018-12DCI-NodeMCU/nodeMCU.sch)
-    (date "jue 20 jun 2019 12:53:51 -03")
+    (date "jue 20 jun 2019 13:15:02 -03")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -80,7 +80,7 @@
       (tstamp 5D0874DF))
     (comp (ref D1)
       (value 1N5819)
-      (footprint Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal)
+      (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet http://www.vishay.com/docs/88525/1n5817.pdf)
       (libsource (lib Diode) (part 1N5819) (description "40V 1A Schottky Barrier Rectifier Diode, DO-41"))
       (sheetpath (names /) (tstamps /))
