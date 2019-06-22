@@ -20,7 +20,7 @@ U 1 1 5D014577
 P 4950 4400
 F 0 "Q2" H 5141 4446 50  0000 L CNN
 F 1 "S8050" H 5141 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23W" H 5150 4325 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 4950 4400 50  0001 L CNN
 	1    4950 4400
 	1    0    0    1   
@@ -249,8 +249,6 @@ Wire Wire Line
 Connection ~ 1200 4550
 Wire Wire Line
 	1150 4550 1200 4550
-Wire Wire Line
-	1150 4050 1150 4150
 $Comp
 L power:GND #PWR03
 U 1 1 5D04E7C0
@@ -1109,17 +1107,6 @@ Wire Wire Line
 	10400 1050 10400 1700
 Wire Wire Line
 	4100 3600 4350 3600
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 5D04B9AE
-P 1250 4050
-F 0 "J1" H 1307 4517 50  0000 C CNN
-F 1 "USB_B_Micro" H 1307 4426 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1400 4000 50  0001 C CNN
-F 3 "~" H 1400 4000 50  0001 C CNN
-	1    1250 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2100 8350 2100
 Wire Wire Line
@@ -1328,4 +1315,21 @@ Wire Notes Line
 	5850 650  5850 3350
 Wire Wire Line
 	1600 1400 1600 3850
+Wire Wire Line
+	1150 4550 1150 4450
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5D04B9AE
+P 1250 4050
+F 0 "J1" H 1307 4517 50  0000 C CNN
+F 1 "USB_B_Micro" H 1307 4426 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1400 4000 50  0001 C CNN
+F 3 "~" H 1400 4000 50  0001 C CNN
+	1    1250 4050
+	1    0    0    -1  
+$EndComp
+Text Label 4100 2750 0    50   ~ 0
+nRTS_CP
+Text Label 3950 3150 0    50   ~ 0
+nDTR_CP
 $EndSCHEMATC
