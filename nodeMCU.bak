@@ -9,10 +9,10 @@ Title "NodeMCU"
 Date "2019-06-22"
 Rev "1.2"
 Comp "Ing. Suarez Sebastian Alejandro"
-Comment1 "https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/LICENSE"
-Comment2 "Bajo Licencia MIT"
-Comment3 "Basado en NodeMCU devkit-v1.0 (https://github.com/nodemcu/nodemcu-devkit-v1.0)"
-Comment4 ""
+Comment1 ""
+Comment2 "https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/LICENSE"
+Comment3 "Bajo Licencia MIT"
+Comment4 "Basado en NodeMCU devkit-v1.0 (https://github.com/nodemcu/nodemcu-devkit-v1.0)"
 $EndDescr
 $Comp
 L Device:R R2
@@ -1331,5 +1331,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4500 50  0001 C CNN
 F 3 "~" H 4950 4400 50  0001 C CNN
 	1    4950 4400
 	1    0    0    1   
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 5D102E43
+P 10950 6900
+F 0 "#LOGO?" H 10950 7175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10950 6675 50  0001 C CNN
+F 2 "" H 10950 6900 50  0001 C CNN
+F 3 "~" H 10950 6900 50  0001 C CNN
+	1    10950 6900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
