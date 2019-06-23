@@ -15,28 +15,6 @@ Comment3 "Basado en NodeMCU devkit-v1.0 (https://github.com/nodemcu/nodemcu-devk
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 5D014577
-P 4950 4400
-F 0 "Q2" H 5141 4446 50  0000 L CNN
-F 1 "S8050" H 5141 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4325 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 4950 4400 50  0001 L CNN
-	1    4950 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q1
-U 1 1 5D0158DF
-P 4950 3600
-F 0 "Q1" H 5141 3554 50  0000 L CNN
-F 1 "S8050" H 5141 3645 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3525 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 4950 3600 50  0001 L CNN
-	1    4950 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 5D01B579
 P 4500 4400
@@ -1323,9 +1301,35 @@ U 1 1 5D04B9AE
 P 1250 4050
 F 0 "J1" H 1307 4517 50  0000 C CNN
 F 1 "USB_B_Micro" H 1307 4426 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1400 4000 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1400 4000 50  0001 C CNN
 F 3 "~" H 1400 4000 50  0001 C CNN
 	1    1250 4050
 	1    0    0    -1  
+$EndComp
+Text Label 4100 2750 0    50   ~ 0
+nRTS_CP
+Text Label 3950 3150 0    50   ~ 0
+nDTR_CP
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5D1876D5
+P 4950 3600
+F 0 "Q1" H 5140 3646 50  0000 L CNN
+F 1 "S8050" H 5140 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3700 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5D189887
+P 4950 4400
+F 0 "Q2" H 5140 4354 50  0000 L CNN
+F 1 "S8050" H 5140 4445 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4500 50  0001 C CNN
+F 3 "~" H 4950 4400 50  0001 C CNN
+	1    4950 4400
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
