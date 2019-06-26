@@ -15,24 +15,15 @@ Comment3 "Bajo Licencia MIT"
 Comment4 "Basado en NodeMCU devkit-v1.0 (https://github.com/nodemcu/nodemcu-devkit-v1.0)"
 $EndDescr
 $Comp
-L Device:R R2
-U 1 1 5D01B579
-P 4500 4400
-F 0 "R2" V 4293 4400 50  0000 C CNN
-F 1 "12k" V 4384 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 4400 50  0001 C CNN
-F 3 "~" H 4500 4400 50  0001 C CNN
-	1    4500 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5D01BA88
 P 4500 3600
 F 0 "R1" V 4293 3600 50  0000 C CNN
 F 1 "12k" V 4384 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 3600 50  0001 C CNN
-F 3 "~" H 4500 3600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 3600 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 4500 3600 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 4500 3600 50  0001 C CNN "Numero de parte del fabricante"
 	1    4500 3600
 	0    -1   -1   0   
 $EndComp
@@ -63,6 +54,7 @@ F 1 "AP1117-33" H 2250 7051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2250 7100 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2350 6650 50  0001 C CNN
 F 4 "AP1117E25G-13-ND" H 2250 6900 50  0001 C CNN "Numero de parte de digikey"
+F 5 "AP1117E25G-13" H 2250 6900 50  0001 C CNN "Numero de parte del fabricante"
 	1    2250 6900
 	1    0    0    -1  
 $EndComp
@@ -73,7 +65,9 @@ P 2850 7150
 F 0 "C6" H 2965 7196 50  0000 L CNN
 F 1 "10uF" H 2965 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 7000 50  0001 C CNN
-F 3 "~" H 2850 7150 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60G106ME44-01.pdf" H 2850 7150 50  0001 C CNN
+F 4 "490-10693-2-ND" H 2850 7150 50  0001 C CNN "Numero de parte de digikey"
+F 5 "GRM155R60G106ME44D" H 2850 7150 50  0001 C CNN "Numero de parte del fabricante"
 	1    2850 7150
 	1    0    0    -1  
 $EndComp
@@ -84,7 +78,9 @@ P 1550 7150
 F 0 "C3" H 1668 7196 50  0000 L CNN
 F 1 "10uF/25v" H 1668 7105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 7000 50  0001 C CNN
-F 3 "~" H 1550 7150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 1550 7150 50  0001 C CNN
+F 4 "478-5257-2-ND" H 1550 7150 50  0001 C CNN "Numero de parte de digikey"
+F 5 "TAJB106K025RNJ" H 1550 7150 50  0001 C CNN "Numero de parte del fabricante"
 	1    1550 7150
 	1    0    0    -1  
 $EndComp
@@ -165,6 +161,7 @@ F 1 "1N5819" H 3850 6875 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3850 6825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3850 7000 50  0001 C CNN
 F 4 "1N5819HW-FDITR-ND" H 3850 7000 50  0001 C CNN "Numero de parte de digikey"
+F 5 "1N5819HW-7-F" H 3850 7000 50  0001 C CNN "Numero de parte del fabricante"
 	1    3850 7000
 	-1   0    0    1   
 $EndComp
@@ -205,7 +202,9 @@ P 4600 2950
 F 0 "R3" V 4700 2950 50  0000 C CNN
 F 1 "470" V 4800 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 2950 50  0001 C CNN
-F 3 "~" H 4600 2950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4600 2950 50  0001 C CNN
+F 4 "P470DCTR-ND" V 4600 2950 50  0001 C CNN "Numero de parte de digikey"
+F 5 "ERA-2AEB471X" V 4600 2950 50  0001 C CNN "Numero de partedel fabricante"
 	1    4600 2950
 	0    1    1    0   
 $EndComp
@@ -258,7 +257,9 @@ P 2350 2900
 F 0 "C5" V 2100 2850 50  0000 L CNN
 F 1 "100nF" V 2200 2850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2388 2750 50  0001 C CNN
-F 3 "~" H 2350 2900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/19-CL05F104ZO5NNNC.pdf" H 2350 2900 50  0001 C CNN
+F 4 "1276-1004-6-ND" V 2350 2900 50  0001 C CNN "Numero de parte del fabricante"
+F 5 "CL05F104ZO5NNNC" V 2350 2900 50  0001 C CNN "Numero de parte del fabricante"
 	1    2350 2900
 	0    1    1    0   
 $EndComp
@@ -269,7 +270,9 @@ P 2350 2500
 F 0 "C4" V 2100 2450 50  0000 L CNN
 F 1 "10uF" V 2200 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2388 2350 50  0001 C CNN
-F 3 "~" H 2350 2500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60G106ME44-01.pdf" H 2350 2500 50  0001 C CNN
+F 4 "490-10693-2-ND" V 2350 2500 50  0001 C CNN "Numero de parte de digikey"
+F 5 "GRM155R60G106ME44D" V 2350 2500 50  0001 C CNN "Numero de parte del fabricante"
 	1    2350 2500
 	0    1    1    0   
 $EndComp
@@ -291,7 +294,9 @@ P 3700 1700
 F 0 "C1" V 3450 1650 50  0000 L CNN
 F 1 "10uF" V 3550 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 1550 50  0001 C CNN
-F 3 "~" H 3700 1700 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60G106ME44-01.pdf" H 3700 1700 50  0001 C CNN
+F 4 "490-10693-2-ND" V 3700 1700 50  0001 C CNN "Numero de parte de digikey"
+F 5 "GRM155R60G106ME44D" V 3700 1700 50  0001 C CNN "Numero de parte del fabricante"
 	1    3700 1700
 	0    1    1    0   
 $EndComp
@@ -302,7 +307,9 @@ P 3700 2150
 F 0 "C2" V 3450 2100 50  0000 L CNN
 F 1 "100nF" V 3550 2100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 2000 50  0001 C CNN
-F 3 "~" H 3700 2150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/19-CL05F104ZO5NNNC.pdf" H 3700 2150 50  0001 C CNN
+F 4 "1276-1004-6-ND" V 3700 2150 50  0001 C CNN "Numero de parte de digikey"
+F 5 "CL05F104ZO5NNNC" V 3700 2150 50  0001 C CNN "Numbero de parte del fabricante"
 	1    3700 2150
 	0    1    1    0   
 $EndComp
@@ -364,6 +371,7 @@ F 1 "CP2102N-A01-GQFN28" H 3900 5050 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 3800 2550 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" H 3400 3000 50  0001 C CNN
 F 4 "336-4826-2-ND" H 3350 3750 50  0001 C CNN "Numero de parte de digikey"
+F 5 "CP2102N-A01-GQFN20R" H 3350 3750 50  0001 C CNN "Numero de parte del fabricante"
 	1    3350 3750
 	1    0    0    -1  
 $EndComp
@@ -514,7 +522,9 @@ P 6700 4150
 F 0 "R4" H 6630 4104 50  0000 R CNN
 F 1 "470" H 6630 4195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6630 4150 50  0001 C CNN
-F 3 "~" H 6700 4150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6700 4150 50  0001 C CNN
+F 4 "P470DCTR-ND" H 6700 4150 50  0001 C CNN "Numero de parte de digikey"
+F 5 "ERA-2AEB471X" H 6700 4150 50  0001 C CNN "Numero de parte del fabricante"
 	1    6700 4150
 	-1   0    0    1   
 $EndComp
@@ -538,7 +548,9 @@ P 6700 4650
 F 0 "D2" V 6750 4850 50  0000 R CNN
 F 1 "AZUL/BLANCO" V 6650 5250 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6700 4650 50  0001 C CNN
-F 3 "~" H 6700 4650 50  0001 C CNN
+F 3 "http://www.qt-brightek.com/datasheet/QBLP601_series.pdf" H 6700 4650 50  0001 C CNN
+F 4 "1516-1057-2-ND" V 6700 4650 50  0001 C CNN "Numero de parte de digikey"
+F 5 "QBLP601-IW" V 6700 4650 50  0001 C CNN "Numero de parte del fabricante"
 	1    6700 4650
 	0    -1   -1   0   
 $EndComp
@@ -774,7 +786,9 @@ P 9750 4950
 F 0 "J2" H 9650 5900 50  0000 L CNN
 F 1 "Conn_01x15" H 9300 5800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9750 4950 50  0001 C CNN
-F 3 "~" H 9750 4950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640452&DocType=Customer+Drawing&DocLang=English" H 9750 4950 50  0001 C CNN
+F 4 "A24931-ND" H 9750 4950 50  0001 C CNN "Numero de parte de digikey"
+F 5 "1-640452-5" H 9750 4950 50  0001 C CNN "Numero de parte del fabricante"
 	1    9750 4950
 	1    0    0    -1  
 $EndComp
@@ -785,7 +799,9 @@ P 9950 4950
 F 0 "J3" H 9900 5900 50  0000 C CNN
 F 1 "Conn_01x15" H 9750 5800 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9950 4950 50  0001 C CNN
-F 3 "~" H 9950 4950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640452&DocType=Customer+Drawing&DocLang=English" H 9950 4950 50  0001 C CNN
+F 4 "A24931-ND" H 9950 4950 50  0001 C CNN "Numero de parte de digikey "
+F 5 "1-640452-5" H 9950 4950 50  0001 C CNN "Numero de parte del fabricante"
 	1    9950 4950
 	-1   0    0    -1  
 $EndComp
@@ -798,7 +814,9 @@ P 7200 4850
 F 0 "R6" H 7130 4804 50  0000 R CNN
 F 1 "470" H 7130 4895 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 4850 50  0001 C CNN
-F 3 "~" H 7200 4850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7200 4850 50  0001 C CNN
+F 4 "P470DCTR-ND" H 7200 4850 50  0001 C CNN "Numero de parte de digikey"
+F 5 "ERA-2AEB471X" H 7200 4850 50  0001 C CNN "Numero de parte del fabricante"
 	1    7200 4850
 	-1   0    0    1   
 $EndComp
@@ -843,7 +861,9 @@ P 7850 4900
 F 0 "R7" H 7780 4854 50  0000 R CNN
 F 1 "470" H 7780 4945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 4900 50  0001 C CNN
-F 3 "~" H 7850 4900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7850 4900 50  0001 C CNN
+F 4 "P470DCTR-ND" H 7850 4900 50  0001 C CNN "Numero de parte de digikey"
+F 5 "ERA-2AEB471X" H 7850 4900 50  0001 C CNN "Numero de parte del fabricante"
 	1    7850 4900
 	-1   0    0    1   
 $EndComp
@@ -856,7 +876,9 @@ P 8400 1250
 F 0 "C7" V 8100 1200 50  0000 L CNN
 F 1 "100uF" V 8200 1200 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 8438 1100 50  0001 C CNN
-F 3 "~" H 8400 1250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/19-CL05F104ZO5NNNC.pdf" H 8400 1250 50  0001 C CNN
+F 4 "1276-1004-6-ND" V 8400 1250 50  0001 C CNN "Numero de parte de digikey"
+F 5 "CL05F104ZO5NNNC" V 8400 1250 50  0001 C CNN "Numero de parte del fabricante"
 	1    8400 1250
 	0    1    1    0   
 $EndComp
@@ -867,7 +889,9 @@ P 7650 2700
 F 0 "C8" H 7765 2746 50  0000 L CNN
 F 1 "100nF" H 7765 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7688 2550 50  0001 C CNN
-F 3 "~" H 7650 2700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/19-CL05F104ZO5NNNC.pdf" H 7650 2700 50  0001 C CNN
+F 4 "1276-1004-6-ND" H 7650 2700 50  0001 C CNN "Numbero de parte de digikey"
+F 5 "CL05F104ZO5NNNC" H 7650 2700 50  0001 C CNN "Numero de parte del fabricante"
 	1    7650 2700
 	-1   0    0    1   
 $EndComp
@@ -891,6 +915,7 @@ F 1 "ESP-12E" H 9300 3100 50  0000 C CNN
 F 2 "RF_Module:ESP-12E" H 8950 2300 50  0001 C CNN
 F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 8600 2400 50  0001 C CNN
 F 4 "1528-2850-ND" H 8950 2300 50  0001 C CNN "Numero de parte de digikey"
+F 5 "4065" H 8950 2300 50  0001 C CNN "Numero de parte del fabricante"
 	1    8950 2300
 	1    0    0    -1  
 $EndComp
@@ -976,61 +1001,6 @@ Text Label 8000 2800 0    50   ~ 0
 SCLK
 Text Label 8000 1900 0    50   ~ 0
 EN
-$Comp
-L Device:R R8
-U 1 1 5D111838
-P 10150 1700
-F 0 "R8" V 9943 1700 50  0000 C CNN
-F 1 "12k" V 10034 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 1700 50  0001 C CNN
-F 3 "~" H 10150 1700 50  0001 C CNN
-	1    10150 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5D11270C
-P 10150 1900
-F 0 "R9" V 10250 1900 50  0000 C CNN
-F 1 "12k" V 10350 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 1900 50  0001 C CNN
-F 3 "~" H 10150 1900 50  0001 C CNN
-	1    10150 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5D112ADD
-P 7300 1900
-F 0 "R10" V 7400 1900 50  0000 C CNN
-F 1 "12k" V 7500 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 1900 50  0001 C CNN
-F 3 "~" H 7300 1900 50  0001 C CNN
-	1    7300 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5D112F7E
-P 7300 1700
-F 0 "R11" V 7093 1700 50  0000 C CNN
-F 1 "12k" V 7184 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 1700 50  0001 C CNN
-F 3 "~" H 7300 1700 50  0001 C CNN
-	1    7300 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5D11334E
-P 10150 2600
-F 0 "R12" V 9943 2600 50  0000 C CNN
-F 1 "12k" V 10034 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 2600 50  0001 C CNN
-F 3 "~" H 10150 2600 50  0001 C CNN
-	1    10150 2600
-	0    1    1    0   
-$EndComp
 Text Label 9900 1900 2    50   ~ 0
 GPIO_2
 Text Label 9900 2600 2    50   ~ 0
@@ -1113,7 +1083,9 @@ P 6550 2750
 F 0 "R14" H 6400 2700 50  0000 C CNN
 F 1 "100k(1%)" H 6300 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 2750 50  0001 C CNN
-F 3 "~" H 6550 2750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 6550 2750 50  0001 C CNN
+F 4 "MCS0402-100K-CFCT-ND" H 6550 2750 50  0001 C CNN "Numero de parte de digikey"
+F 5 "MCS04020C1003FE000" H 6550 2750 50  0001 C CNN "Numero de parte del fabricante"
 	1    6550 2750
 	-1   0    0    1   
 $EndComp
@@ -1124,7 +1096,9 @@ P 6550 2200
 F 0 "R13" H 6400 2150 50  0000 C CNN
 F 1 "220k(1%)" H 6300 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 2200 50  0001 C CNN
-F 3 "~" H 6550 2200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 6550 2200 50  0001 C CNN
+F 4 "A129655TR-ND" H 6550 2200 50  0001 C CNN "Numero de parte de digikey"
+F 5 "CRGCQ0402F220K" H 6550 2200 50  0001 C CNN "Numero de parte del fabricante"
 	1    6550 2200
 	-1   0    0    1   
 $EndComp
@@ -1306,7 +1280,9 @@ P 1250 4050
 F 0 "J1" H 1307 4517 50  0000 C CNN
 F 1 "USB_B_Micro" H 1307 4426 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1400 4000 50  0001 C CNN
-F 3 "~" H 1400 4000 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1400 4000 50  0001 C CNN
+F 4 "609-4618-6-ND" H 1250 4050 50  0001 C CNN "Numero de parte de digikey"
+F 5 "10118194-0001LF" H 1250 4050 50  0001 C CNN "Numero de parte del fabricante"
 	1    1250 4050
 	1    0    0    -1  
 $EndComp
@@ -1321,20 +1297,11 @@ P 4950 3600
 F 0 "Q1" H 5140 3646 50  0000 L CNN
 F 1 "S8050" H 5140 3555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3700 50  0001 C CNN
-F 3 "~" H 4950 3600 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" H 4950 3600 50  0001 C CNN
+F 4 "MMSS8050-H-TPMSTR-ND" H 4950 3600 50  0001 C CNN "Numero de parte de digikey"
+F 5 "MMSS8050-H-TP" H 4950 3600 50  0001 C CNN "Numero de parte del fabricante"
 	1    4950 3600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BEC Q2
-U 1 1 5D189887
-P 4950 4400
-F 0 "Q2" H 5140 4354 50  0000 L CNN
-F 1 "S8050" H 5140 4445 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4500 50  0001 C CNN
-F 3 "~" H 4950 4400 50  0001 C CNN
-	1    4950 4400
-	1    0    0    1   
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
@@ -1357,5 +1324,96 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5550 7350 50  0001 C CNN
 F 3 "~" H 5550 7350 50  0001 C CNN
 	1    5550 7350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D1BE69F
+P 4500 4400
+F 0 "R2" V 4293 4400 50  0000 C CNN
+F 1 "12k" V 4384 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 4400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 4400 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 4500 4400 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 4500 4400 50  0001 C CNN "Numero de parte del fabricante"
+	1    4500 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5D1BEBDD
+P 7300 1700
+F 0 "R11" V 7093 1700 50  0000 C CNN
+F 1 "12k" V 7184 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7300 1700 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 7300 1700 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 7300 1700 50  0001 C CNN "Numero de parte del fabricante"
+	1    7300 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5D1BFECC
+P 7300 1900
+F 0 "R10" V 7400 1900 50  0000 C CNN
+F 1 "12k" V 7500 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7300 1900 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 7300 1900 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 7300 1900 50  0001 C CNN "Numero de parte del fabricante"
+	1    7300 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D1C0E5E
+P 10150 1700
+F 0 "R8" V 9943 1700 50  0000 C CNN
+F 1 "12k" V 10034 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10150 1700 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 10150 1700 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 10150 1700 50  0001 C CNN "Numero de parte del fabricante"
+	1    10150 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D1C1522
+P 10150 1900
+F 0 "R9" V 10250 1900 50  0000 C CNN
+F 1 "12k" V 10350 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10150 1900 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 10150 1900 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 10150 1900 50  0001 C CNN "Numero de parte del fabricante"
+	1    10150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5D1C19A1
+P 10150 2600
+F 0 "R12" V 9943 2600 50  0000 C CNN
+F 1 "12k" V 10034 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10080 2600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10150 2600 50  0001 C CNN
+F 4 "YAG6226TR-ND" V 10150 2600 50  0001 C CNN "Numero de parte de di"
+F 5 "RC0100FR-0712KL" V 10150 2600 50  0001 C CNN "Numero de parte del fabricante"
+	1    10150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5D1C2A76
+P 4950 4400
+F 0 "Q2" H 5140 4446 50  0000 L CNN
+F 1 "S8050" H 5140 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 4500 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" H 4950 4400 50  0001 C CNN
+F 4 "MMSS8050-H-TPMSTR-ND" H 4950 4400 50  0001 C CNN "Numero de parte de digikey"
+F 5 "MMSS8050-H-TP" H 4950 4400 50  0001 C CNN "Numero de parte del fabricante"
+	1    4950 4400
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
