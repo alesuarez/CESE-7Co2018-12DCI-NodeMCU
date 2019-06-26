@@ -62,6 +62,7 @@ F 0 "U1" H 2250 7142 50  0000 C CNN
 F 1 "AP1117-33" H 2250 7051 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2250 7100 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2350 6650 50  0001 C CNN
+F 4 "AP1117E25G-13-ND" H 2250 6900 50  0001 C CNN "Numero de parte de digikey"
 	1    2250 6900
 	1    0    0    -1  
 $EndComp
@@ -163,6 +164,7 @@ F 0 "D1" H 3850 6784 50  0000 C CNN
 F 1 "1N5819" H 3850 6875 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3850 6825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 3850 7000 50  0001 C CNN
+F 4 "1N5819HW-FDITR-ND" H 3850 7000 50  0001 C CNN "Numero de parte de digikey"
 	1    3850 7000
 	-1   0    0    1   
 $EndComp
@@ -360,7 +362,8 @@ P 3350 3750
 F 0 "U2" H 3500 5150 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN28" H 3900 5050 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 3800 2550 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 3400 3000 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" H 3400 3000 50  0001 C CNN
+F 4 "336-4826-2-ND" H 3350 3750 50  0001 C CNN "Numero de parte de digikey"
 	1    3350 3750
 	1    0    0    -1  
 $EndComp
@@ -886,7 +889,8 @@ P 8950 2300
 F 0 "U3" H 9200 3200 50  0000 C CNN
 F 1 "ESP-12E" H 9300 3100 50  0000 C CNN
 F 2 "RF_Module:ESP-12E" H 8950 2300 50  0001 C CNN
-F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 8600 2400 50  0001 C CNN
+F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 8600 2400 50  0001 C CNN
+F 4 "1528-2850-ND" H 8950 2300 50  0001 C CNN "Numero de parte de digikey"
 	1    8950 2300
 	1    0    0    -1  
 $EndComp

@@ -360,7 +360,7 @@ P 3350 3750
 F 0 "U2" H 3500 5150 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN28" H 3900 5050 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 3800 2550 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 3400 3000 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/CP2102-9.pdf" H 3400 3000 50  0001 C CNN
 	1    3350 3750
 	1    0    0    -1  
 $EndComp
@@ -412,53 +412,53 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5D1E5AB6
-P 4950 6850
-F 0 "H1" H 5050 6896 50  0000 L CNN
-F 1 "MountingHole" H 5050 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 6850 50  0001 C CNN
-F 3 "~" H 4950 6850 50  0001 C CNN
-	1    4950 6850
+P 5000 6600
+F 0 "H1" H 5100 6646 50  0000 L CNN
+F 1 "MountingHole" H 5100 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5000 6600 50  0001 C CNN
+F 3 "~" H 5000 6600 50  0001 C CNN
+	1    5000 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5D1E5FD2
-P 5850 6850
-F 0 "H3" H 5950 6896 50  0000 L CNN
-F 1 "MountingHole" H 5950 6805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5850 6850 50  0001 C CNN
-F 3 "~" H 5850 6850 50  0001 C CNN
-	1    5850 6850
+P 5900 6600
+F 0 "H3" H 6000 6646 50  0000 L CNN
+F 1 "MountingHole" H 6000 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5900 6600 50  0001 C CNN
+F 3 "~" H 5900 6600 50  0001 C CNN
+	1    5900 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5D1E64ED
-P 4950 7200
-F 0 "H2" H 5050 7246 50  0000 L CNN
-F 1 "MountingHole" H 5050 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 7200 50  0001 C CNN
-F 3 "~" H 4950 7200 50  0001 C CNN
-	1    4950 7200
+P 5000 7000
+F 0 "H2" H 5100 7046 50  0000 L CNN
+F 1 "MountingHole" H 5100 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5000 7000 50  0001 C CNN
+F 3 "~" H 5000 7000 50  0001 C CNN
+	1    5000 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5D1E67FE
-P 5850 7200
-F 0 "H4" H 5950 7246 50  0000 L CNN
-F 1 "MountingHole" H 5950 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 5850 7200 50  0001 C CNN
-F 3 "~" H 5850 7200 50  0001 C CNN
-	1    5850 7200
+P 5900 7000
+F 0 "H4" H 6000 7046 50  0000 L CNN
+F 1 "MountingHole" H 6000 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5900 7000 50  0001 C CNN
+F 3 "~" H 5900 7000 50  0001 C CNN
+	1    5900 7000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	4600 6200 4600 7700
 Wire Notes Line
 	6850 7700 6850 6200
-Text Notes 4650 6400 0    79   Italic 16
-AGUJEROS DE SUJECION
+Text Notes 4600 6400 0    79   Italic 16
+AGUJEROS DE SUJECION/FIDUCIAL
 Wire Wire Line
 	3850 2750 4100 2750
 Wire Wire Line
@@ -886,7 +886,7 @@ P 8950 2300
 F 0 "U3" H 9200 3200 50  0000 C CNN
 F 1 "ESP-12E" H 9300 3100 50  0000 C CNN
 F 2 "RF_Module:ESP-12E" H 8950 2300 50  0001 C CNN
-F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 8600 2400 50  0001 C CNN
+F 3 "https://www.elecrow.com/download/ESP-12F.pdf" H 8600 2400 50  0001 C CNN
 	1    8950 2300
 	1    0    0    -1  
 $EndComp
@@ -1333,14 +1333,25 @@ F 3 "~" H 4950 4400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5D102E43
 P 10950 6900
-F 0 "#LOGO?" H 10950 7175 50  0001 C CNN
+F 0 "#LOGO1" H 10950 7175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10950 6675 50  0001 C CNN
 F 2 "" H 10950 6900 50  0001 C CNN
 F 3 "~" H 10950 6900 50  0001 C CNN
 	1    10950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D1470F6
+P 5550 7350
+F 0 "FID1" H 5635 7396 50  0000 L CNN
+F 1 "Fiducial" H 5635 7305 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5550 7350 50  0001 C CNN
+F 3 "~" H 5550 7350 50  0001 C CNN
+	1    5550 7350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
