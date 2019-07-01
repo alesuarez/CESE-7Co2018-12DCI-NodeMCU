@@ -1,4 +1,4 @@
-update=lun 01 jul 2019 12:02:16 -03
+update=lun 01 jul 2019 12:04:35 -03
 version=1
 last_client=kicad
 [general]
@@ -245,7 +245,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=out/nodeMCU1.v
+PlotDirectoryName=out/nodeMCU1.3v
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
