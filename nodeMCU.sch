@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "NodeMCU"
-Date "2019-06-23"
-Rev "1.2"
-Comp "Ing. Suarez Sebastian Alejandro"
+Date "2019-06-30"
+Rev "1.3"
+Comp "Ing. Suarez Sebastian Alejandro - Revisor: Ferreyra Hernan"
 Comment1 ""
 Comment2 "https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/LICENSE"
 Comment3 "Bajo Licencia MIT"
@@ -471,8 +471,6 @@ Wire Notes Line
 Text Notes 4600 6400 0    79   Italic 16
 AGUJEROS DE SUJECION/FIDUCIAL
 Wire Wire Line
-	3850 2750 4100 2750
-Wire Wire Line
 	4100 4100 4100 4400
 Wire Wire Line
 	3850 3150 3950 3150
@@ -481,9 +479,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 4400 4100 4400
 Connection ~ 4100 4400
-Wire Wire Line
-	4100 3600 4100 2750
-Connection ~ 4100 3600
 Wire Wire Line
 	3850 2850 5350 2850
 Wire Wire Line
@@ -1286,10 +1281,6 @@ F 5 "10118194-0001LF" H 1250 4050 50  0001 C CNN "Numero de parte del fabricante
 	1    1250 4050
 	1    0    0    -1  
 $EndComp
-Text Label 4100 2750 0    50   ~ 0
-nRTS_CP
-Text Label 3950 3150 0    50   ~ 0
-nDTR_CP
 $Comp
 L Device:Q_NPN_BEC Q1
 U 1 1 5D1876D5
@@ -1416,4 +1407,9 @@ F 5 "MMSS8050-H-TP" H 4950 4400 50  0001 C CNN "Numero de parte del fabricante"
 	1    4950 4400
 	1    0    0    1   
 $EndComp
+Connection ~ 4100 3600
+Wire Wire Line
+	4100 3600 4100 2750
+Wire Wire Line
+	3850 2750 4100 2750
 $EndSCHEMATC
